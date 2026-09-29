@@ -89,6 +89,19 @@ The extraction prompt requires machine-readable JSON, while the query prompt req
 
 ![Active scenario with successful execution history](docs/images/scenario-operations.png)
 
+### Working Telegram results
+
+The following screenshots demonstrate the assistant processing uploaded transaction evidence, extracting merchant, date, total and item information, and answering a natural-language question by aggregating recorded transactions.
+
+#### Receipt and transfer extraction
+
+![Telegram receipt and transfer extraction results](docs/images/telegram-receipt-extraction-results.jpg)
+
+#### Natural-language spending query
+
+![Telegram spending query result](docs/images/telegram-spending-query-result.jpg)
+
+
 ## Security and privacy
 
 This repository contains documentation and screenshots only. Bot tokens, API keys, Google credentials, webhook secrets, transaction records and personal financial data are intentionally excluded. Use environment or platform-managed connections when recreating the workflow.
